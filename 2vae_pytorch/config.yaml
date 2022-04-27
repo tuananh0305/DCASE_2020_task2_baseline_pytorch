@@ -1,0 +1,32 @@
+dev_directory : /content/drive/MyDrive/DCASE/data2020/ToyCar/dev_data
+eval_directory : /content/drive/MyDrive/DCASE/data2020/ToyCar/eval_data
+model_directory: /content/drive/MyDrive/DCASE/dcase2020_task2_variants-master/2vae_pytorch/model
+result_directory: /content/drive/MyDrive/DCASE/dcase2020_task2_variants-master/2vae_pytorch/result
+result_file: result.csv
+result_file: result.csv
+target: ['ToyCar']  #  set this when you want to test for specific target only.
+
+max_fpr : 0.1
+
+feature:
+  n_mels: 128
+  frames : 5
+  n_fft: 1024
+  hop_length: 512
+  power: 2.0
+
+fit:
+  lr: 0.001
+  b1: 0.9
+  b2: 0.999
+  weight_decay: 0.0
+  epochs : 100
+  batch_size : 1000
+  shuffle : True
+  validation_split : 0.1
+  verbose : 1
+
+VAE:
+  x_dim: 640
+  h_dim: 400
+  z_dim: 20

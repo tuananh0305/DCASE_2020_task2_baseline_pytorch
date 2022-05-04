@@ -20,13 +20,12 @@ Baseline system implements VAE with Pytorch, and provides reproducible training 
 
 `result.csv`
 ```
-ToyCar
+slider
 id		AUC		pAUC
-01		0.799048		0.668660
-02		0.837995		0.764449
-03		0.608658		0.538942
-04		0.853057		0.701121
-Average		0.774689		0.668293
+00		0.936657		0.712300
+02		0.757303		0.613641
+04		0.849382		0.646363
+Average		0.847781		0.657435
 ```
 
 ### 2.2 Training curve visualization example

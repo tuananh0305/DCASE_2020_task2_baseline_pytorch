@@ -1,10 +1,9 @@
-dev_directory : /content/drive/MyDrive/DCASE/data2020/ToyCar/dev_data
-eval_directory : /content/drive/MyDrive/DCASE/data2020/ToyCar/eval_data
+dev_directory : /content/drive/MyDrive/DCASE/dcase2020_task2_variants-master/data/dev_data
+eval_directory : /content/drive/MyDrive/DCASE/dcase2020_task2_variants-master/data/eval_data
 model_directory: /content/drive/MyDrive/DCASE/dcase2020_task2_variants-master/2vae_pytorch/model
 result_directory: /content/drive/MyDrive/DCASE/dcase2020_task2_variants-master/2vae_pytorch/result
 result_file: result.csv
-result_file: result.csv
-target: ['ToyCar']  #  set this when you want to test for specific target only.
+target: ['slider']  #  set this when you want to test for specific target only.
 
 max_fpr : 0.1
 
